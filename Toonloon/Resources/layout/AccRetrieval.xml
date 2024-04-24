@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorPrimaryDark">
+
+    <!-- Text -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Account Retrieval"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:layout_marginTop="200px"
+        android:textColor="@color/colorAccent"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the email you used on your account to recover your password below:"
+        android:gravity="left"
+        android:textSize="14sp"
+        android:layout_marginTop="200px"
+        android:layout_marginLeft="120px"
+        android:layout_marginRight="110px"
+        android:textColor="@android:color/white"/>
+
+    <!-- email or username -->
+    <EditText
+    android:id="@+id/unAccR"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:drawable/editbox_background"
+    android:backgroundTint="?android:attr/colorPrimary"    
+    android:textColorHint="#bec1d4"
+    android:textColor="@android:color/white"
+    android:hint="Enter your email or username"
+    android:inputType="text"
+    android:layout_marginLeft="100px"
+    android:layout_marginRight="100px"
+    android:layout_marginTop="80px"
+    android:paddingTop="30px"
+    android:paddingBottom="30px"
+    android:paddingLeft="80px"/>
+
+    <!-- cont button -->
+    <Button
+        android:id="@+id/continueR"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Continue"
+        android:textStyle="bold"
+        android:background="@drawable/btn_rounded"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:layout_marginLeft="200px"
+        android:layout_marginRight="200px"
+        android:layout_marginTop="800px"/>
+
+
+</LinearLayout>

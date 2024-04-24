@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1d2034">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#1d2034">
+        <!-- Logo Image -->
+    <ImageView
+        android:layout_width="750px"
+        android:layout_height="750px"
+        android:src="@drawable/toonloon_logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="280px"
+        tools:ignore="UnresolvedResource" />
+
+    <!-- Logo Text -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toonloon"
+        android:layout_marginTop="10px"
+        android:gravity="center"
+        android:textSize="60sp"
+        android:textColor="@color/colorAccent"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:layout_marginLeft="200px"
+        android:layout_marginTop="290px">
+
+        <!-- Terms & Cond -->
+        <CheckBox
+            android:id="@+id/checkBoxTerms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:buttonTint="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/Terms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Accept Terms and Conditions"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:layout_marginLeft="200px"
+        android:layout_marginTop="-10dp">
+
+        <!-- Privacy Policy -->
+        <CheckBox
+            android:id="@+id/checkBoxPrivacy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:buttonTint="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/Privacy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Accept Privacy Policy"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonContinue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continue     →"
+        android:textColor="?android:attr/colorAccent"
+        android:backgroundTint="?android:attr/colorPrimaryDark"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:layout_marginTop="40px"
+        android:layout_marginLeft="100px"
+        android:layout_marginRight="100px"/>
+    </LinearLayout>
+    
+
+</ScrollView>

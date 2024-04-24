@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/toonLoonbg">
+        <!--BackButton-->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/BackButton"/>
+        <!--BackButton End-->
+        <!--MangaName-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manga Name"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:layout_below="@+id/BackButton"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/mangaNameTextView"/>
+        <!--MangaName End-->
+        <!--Rating-->
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5.0"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:layout_toRightOf="@+id/mangaNameTextView"
+            android:layout_below="@+id/BackButton"
+            android:layout_alignParentRight="true"
+            android:textAlignment="textEnd"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/ratingTextView"/>
+        <!--RatingEnd-->
+        <!--MangaCover-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            android:src="@drawable/toonloon_logo"
+            android:background="#ffff"
+            android:layout_below="@+id/ratingTextView"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+        android:id="@+id/mangaCoverImageView"/>
+        <!--MangaCover End-->
+        <!--ReadButton-->
+       
+        <Button
+            android:layout_width="231dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mangaCoverImageView"
+            android:text="Start Reading"
+            android:background="@drawable/outlinedbutton"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="#F6B17A"
+            style="@style/ButtonOutline"/>
+        <!--ReadButton End-->
+        <!--Save Button-->
+        <!--Save Button End-->
+    </RelativeLayout>
+</ScrollView>

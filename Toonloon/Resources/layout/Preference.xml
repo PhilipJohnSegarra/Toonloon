@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorPrimaryDark">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!-- Text -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please tell us your preferences"
+        android:gravity="left"
+        android:layout_marginLeft="120px"
+        android:textSize="21sp"
+        android:layout_marginTop="150px"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A manga recommendation based on your interests is a good start! "
+        android:gravity="left"
+        android:textSize="16sp"
+        android:layout_marginTop="30px"
+        android:layout_marginLeft="120px"
+        android:layout_marginRight="110px"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is optional only and can be change in the settings. "
+        android:gravity="left"
+        android:textSize="11sp"
+        android:layout_marginTop="20px"
+        android:layout_marginLeft="120px"
+        android:layout_marginRight="110px"
+        android:textColor="#bec1d4"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose at least 3 below! "
+        android:gravity="left"
+        android:textSize="14sp"
+        android:layout_marginTop="80px"
+        android:layout_marginLeft="120px"
+        android:layout_marginRight="110px"
+        android:textColor="?android:attr/colorAccent"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/Action"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="Action" 
+            android:textColor="@android:color/white"
+            android:background ="@drawable/btn_white"
+            android:textAllCaps="false"
+            android:layout_marginEnd="30dp"/>
+
+        <Button
+            android:id="@+id/Fantasy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="Fantasy" 
+            android:textColor="@android:color/white"
+            android:background ="@drawable/btn_white"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/Drama"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="Drama" 
+            android:textColor="@android:color/white"
+            android:background ="@drawable/btn_white"
+            android:textAllCaps="false"
+            android:layout_marginEnd="30dp"/>
+
+        <Button
+            android:id="@+id/Adventure"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="Adventure" 
+            android:textColor="@android:color/white"
+            android:background ="@drawable/btn_white"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+   
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/Comedy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="Comedy" 
+            android:textColor="@android:color/white"
+            android:background ="@drawable/btn_white"
+            android:textAllCaps="false"
+            android:layout_marginEnd="30dp"/>
+
+        <Button
+            android:id="@+id/Romance"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="Romance" 
+            android:textColor="@android:color/white"
+            android:background ="@drawable/btn_white"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/Horror"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="Horror"
+            android:textColor="@android:color/white"
+            android:background ="@drawable/btn_white"
+            android:textAllCaps="false"
+            android:layout_marginEnd="30dp"/>
+
+        <Button
+            android:id="@+id/Mystery"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="Mystery" 
+            android:textColor="@android:color/white"
+            android:background ="@drawable/btn_white"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/Sports"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="Sports" 
+            android:textColor="@android:color/white"
+            android:background ="@drawable/btn_white"
+            android:textAllCaps="false"
+            android:layout_marginEnd="30dp"/>
+
+        <Button
+            android:id="@+id/Magic"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="Magic" 
+            android:textColor="@android:color/white"
+            android:background ="@drawable/btn_white"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/School"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="School" 
+            android:textColor="@android:color/white"
+            android:background ="@drawable/btn_white"
+            android:textAllCaps="false"
+            android:layout_marginEnd="30dp"/>
+
+        <Button
+            android:id="@+id/Psychological"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="Psychological" 
+            android:textColor="@android:color/white"
+            android:background ="@drawable/btn_white"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/Thrill"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="Thrill" 
+            android:textColor="@android:color/white"
+            android:background ="@drawable/btn_white"
+            android:textAllCaps="false"
+            android:layout_marginEnd="30dp"/>
+
+        <Button
+            android:id="@+id/adult"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="18+" 
+            android:textColor="@android:color/white"
+            android:background ="@drawable/btn_white"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+    <!-- cont button -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="35dp">
+
+        <Button
+            android:id="@+id/Skip"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="Skip" 
+            android:textColor="?android:attr/colorAccent"
+            android:background ="?android:attr/colorPrimaryDark"
+            android:textAllCaps="false"
+            android:layout_marginEnd="30dp"/>
+
+        <Button
+            android:id="@+id/continueP"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="Continue" 
+            android:textColor="@android:color/white"
+            android:background ="@drawable/btn_rounded"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+    </LinearLayout>
+    
+
+
+</ScrollView>
+
