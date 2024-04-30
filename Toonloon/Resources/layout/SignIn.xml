@@ -122,64 +122,6 @@
         android:layout_marginLeft="100px"
         android:layout_marginRight="100px"
         android:layout_marginTop="50px"/>
-
-    <!-- Signup w fb button -->
-    <Button
-        android:id="@+id/buttonfbS"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:drawableLeft="@drawable/facebook_25"
-        android:paddingStart="40dp"
-        android:text="Log in with Facebook"
-        android:background="@drawable/btn_white"
-        android:textColor="@android:color/white"
-        android:textAllCaps="false"
-        android:layout_marginLeft="100px"
-        android:layout_marginRight="100px"
-        android:layout_marginTop="50px"/>
-
-    <!-- Signup w twter button -->
-    <Button
-        android:id="@+id/buttontwtS"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:drawableLeft="@drawable/twter_25"
-        android:paddingStart="40dp"
-        android:text="Log in with Twitter"
-        android:background="@drawable/btn_white"
-        android:textColor="@android:color/white"
-        android:textAllCaps="false"
-        android:layout_marginLeft="100px"
-        android:layout_marginRight="100px"
-        android:layout_marginTop="50px"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:layout_marginTop="90px">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Don't have an Account?"
-            android:textColor="@android:color/white"/>
-
-        <Button
-            android:id="@+id/signupS"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Sign up"
-            android:textStyle="bold"
-            android:backgroundTint="?android:attr/colorPrimaryDark"
-            android:textAllCaps="false"
-            android:textColor="@color/colorAccent"/>
+    
     </LinearLayout>
-    </LinearLayout>
-    <com.google.android.material.button.MaterialButton
-        android:layout_width=""
-        android:layout_height=""/>
-
-
 </ScrollView>

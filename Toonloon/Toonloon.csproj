@@ -68,9 +68,10 @@
     <Compile Include="AccVerify_Activity.cs" />
     <Compile Include="EventListeners\TaskCompletionListener.cs" />
     <Compile Include="Helpers\AppDataHelper.cs" />
+    <Compile Include="Helpers\GetImagesOnline.cs" />
     <Compile Include="Home_Activity.cs" />
     <Compile Include="MainActivity.cs" />
-    <Compile Include="Preference_Activity.cs" />
+    <Compile Include="MangaOverviewActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Signin_Activity.cs" />

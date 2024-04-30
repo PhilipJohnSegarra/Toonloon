@@ -41,7 +41,6 @@ namespace Toonloon
             password = FindViewById<EditText>(Resource.Id.pass);
 
             Button forgotpass = FindViewById<Button>(Resource.Id.forgotpass);
-            Button signup = FindViewById<Button>(Resource.Id.signupS);
             Button Login = FindViewById<Button>(Resource.Id.buttonLogin);
             EditText passEditText = FindViewById<EditText>(Resource.Id.pass);
             ImageButton toggleButton = FindViewById<ImageButton>(Resource.Id.togglePassword);
@@ -64,8 +63,8 @@ namespace Toonloon
             {
 
                 Toast.MakeText(this, "Welcome To ToonLoon", ToastLength.Short).Show();
-                Intent intent = new Intent(this, typeof(Preference_Activity));
-                StartActivity(intent);
+                //Intent intent = new Intent(this, typeof(Preference_Activity));
+                //StartActivity(intent);
 
             };            
             
