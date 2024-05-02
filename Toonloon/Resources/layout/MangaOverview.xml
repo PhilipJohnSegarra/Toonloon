@@ -67,7 +67,8 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="30dp"
             android:textColor="#F6B17A"
-            style="@style/ButtonOutline"/>
+            style="@style/ButtonOutline"
+            android:id="@+id/startReadingButton"/>
         <!--ReadButton End-->
         <!--Save Button-->
         <!--Save Button End-->

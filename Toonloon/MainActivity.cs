@@ -14,7 +14,7 @@ using Xamarin.Protobuf.Lite;
 
 namespace Toonloon
 {
-    [Activity(Label = "Toonloon", Theme = "@style/AppTheme", MainLauncher = false)]
+    [Activity(Label = "Toonloon", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
         private bool termsClicked = false;

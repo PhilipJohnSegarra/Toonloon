@@ -25,7 +25,7 @@ namespace Toonloon.Helpers
             {
                 var options = new FirebaseOptions.Builder()
                    .SetProjectId("toonloon-cbfce")
-                   .SetApplicationId("toonloon-cbfce")
+                   .SetApplicationId("1:1048209868140:android:e26122936e0860df831f49")
                    .SetApiKey("AIzaSyBS3dNGXx3vCzrc15mvJOM3d7Nptfp4jQw")
                    .SetStorageBucket("toonloon-cbfce.appspot.com")
                    .Build();
@@ -50,7 +50,7 @@ namespace Toonloon.Helpers
             {
                 var options = new FirebaseOptions.Builder()
                    .SetProjectId("toonloon-cbfce")
-                   .SetApplicationId("toonloon-cbfce")
+                   .SetApplicationId("1:1048209868140:android:e26122936e0860df831f49")
                    .SetApiKey("AIzaSyBS3dNGXx3vCzrc15mvJOM3d7Nptfp4jQw")
                    .SetStorageBucket("toonloon-cbfce.appspot.com")
                    .Build();
