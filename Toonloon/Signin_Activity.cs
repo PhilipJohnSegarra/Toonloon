@@ -63,8 +63,8 @@ namespace Toonloon
             {
 
                 Toast.MakeText(this, "Welcome To ToonLoon", ToastLength.Short).Show();
-                //Intent intent = new Intent(this, typeof(Preference_Activity));
-                //StartActivity(intent);
+                Intent intent = new Intent(this, typeof(Home_Activity));
+                StartActivity(intent);
 
             };            
             
